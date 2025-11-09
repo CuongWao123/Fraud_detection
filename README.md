@@ -38,27 +38,6 @@ This project replicates a real-world financial fraud detection workflow — from
 
 ---
 
-## 🧱 Project Structure
-│
-├── data/
-│ ├── raw/ # Original Kaggle data
-│ ├── processed/ # Cleaned and merged data
-│
-├── notebooks/
-│ ├── Data_Insight.ipynb
-│ ├── Experiments.ipynb
-│ └── TrainingModel.ipynb
-│
-├── src/
-│ ├── preprocessing.py
-│ ├── split.py
-│ └── train.py
-│
-├── models/ # Saved models and artifacts
-├── requirements.txt
-└── README.md
-
----
 
 ## 📈 Results
 | Model | ROC-AUC | Precision | Recall |
